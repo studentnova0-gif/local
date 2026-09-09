@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nova College of Science</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================
+     WELCOME / LOGO INTRO
+========================================= -->
+
+<div id="welcome-screen">
+
+    <div class="welcome-glow"></div>
+
+    <div class="welcome-content">
+
+        <img
+            src="nova.jpeg"
+            alt="Nova College Logo"
+            class="welcome-logo"
+        >
+
+        <h1>NOVA</h1>
+
+        <h2>COLLEGE OF SCIENCE</h2>
+
+        <p class="welcome-message">
+            Welcome to Nova College
+        </p>
+
+        <p class="welcome-subtitle">
+            EXCELLENCE IN EDUCATION
+        </p>
+
+        <div class="welcome-loader">
+            <div class="loader-bar"></div>
+        </div>
+
+        <p class="loading-text">
+            LOADING YOUR BRIGHT FUTURE...
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     NAVIGATION
+========================================= -->
+
+<header class="navbar">
+
+    <div class="nav-logo">
+
+        <img src="nova.jpeg" alt="Nova College Logo">
+
+        <div>
+            <strong>NOVA</strong>
+            <span>COLLEGE OF SCIENCE</span>
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Courses</a>
+        <a href="admission.html">Admission</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <a href="loginform.html" class="login-btn">
+        👤 Student Login
+    </a>
+
+</header>
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+
+
+        <!-- LEFT SIDE -->
+
+        <div class="hero-left">
+
+            <div class="brand-area">
+
+                <img
+                    src="nova.jpeg"
+                    alt="Nova College Logo"
+                    class="hero-logo"
+                >
+
+                <div class="brand-line"></div>
+
+                <div class="brand-name">
+
+                    <h1>NOVA</h1>
+
+                    <h2>COLLEGE OF SCIENCE</h2>
+
+                    <p>
+                        LEARN &nbsp; | &nbsp; GROW &nbsp; | &nbsp; SUCCEED
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <h1 class="hero-title">
+                Your <span>Future</span> Starts Here
+            </h1>
+
+
+            <p class="hero-description">
+                Join Nova College of Science and become part of a
+                community that believes in excellence, innovation
+                and a brighter future.
+            </p>
+
+
+            <div class="features">
+
+                <div class="feature">
+                    <div class="feature-icon">🎓</div>
+                    <strong>Quality</strong>
+                    <span>Education</span>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">👥</div>
+                    <strong>Expert</strong>
+                    <span>Faculty</span>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📖</div>
+                    <strong>Modern</strong>
+                    <span>Facilities</span>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📈</div>
+                    <strong>Better</strong>
+                    <span>Future</span>
+                </div>
+
+            </div>
+
+
+            <div class="hero-buttons">
+
+                <a href="#programs" class="gold-btn">
+                    Explore Courses →
+                </a>
+
+                <a href="admission.html" class="outline-btn">
+                    Apply Now
+                </a>
+
+            </div>
+
+        </div>
+        
+
+
+        <!-- RIGHT SIDE ADMISSION CARD -->
+
+        <div class="admission-card">
+
+            <div class="admission-label">
+                ADMISSION OPEN
+            </div>
+
+            <h2>Apply Now</h2>
+
+            <p>
+                Take the first step towards your bright future.
+                Fill out the form below to apply for admission.
+            </p>
+
+
+            <form id="quickAdmissionForm">
+
+                <input
+                    type="text"
+                    id="quickName"
+                    placeholder="Full Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="quickEmail"
+                    placeholder="Email Address"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    id="quickPhone"
+                    placeholder="Phone Number"
+                    required
+                >
+
+                <select id="quickCourse" required>
+
+                    <option value="">
+                        Select Course
+                    </option>
+
+                    <option value="F.Sc Pre-Medical">
+                        F.Sc Pre-Medical
+                    </option>
+
+                    <option value="F.Sc Pre-Engineering">
+                        F.Sc Pre-Engineering
+                    </option>
+
+                    <option value="ICS">
+                        ICS
+                    </option>
+
+                </select>
+
+
+                <button type="submit">
+                    ✈ Submit Application
+                </button>
+
+            </form>
+
+
+            <div id="quickMessage"></div>
+
+
+            <div class="login-line">
+
+                Already have an account?
+
+                <a href="loginform.html">
+                    Login
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-wave"></div>
+
+</section>
+
+
+<!-- =========================================
+     FEATURES
+========================================= -->
+
+<section class="benefits">
+
+    <div class="benefit">
+
+        <div class="benefit-icon">🎓</div>
+
+        <div>
+            <h3>World-Class Education</h3>
+            <p>
+                Modern curriculum and quality learning experience.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="benefit">
+
+        <div class="benefit-icon">👥</div>
+
+        <div>
+            <h3>Supportive Community</h3>
+            <p>
+                A friendly and helpful learning environment.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="benefit">
+
+        <div class="benefit-icon">🏫</div>
+
+        <div>
+            <h3>Modern Campus</h3>
+            <p>
+                Facilities designed for growth and success.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="benefit">
+
+        <div class="benefit-icon">🏆</div>
+
+        <div>
+            <h3>Successful Students</h3>
+            <p>
+                Helping students build a successful future.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     ABOUT
+========================================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <span>ABOUT NOVA</span>
+
+        <h2>
+            Building A Better Future
+        </h2>
+
+        <p>
+            Nova College of Science is committed to providing
+            quality education, modern learning and a supportive
+            environment for every student.
+        </p>
+
+    </div>
+
+
+    <div class="about-cards">
+
+        <div class="modern-card">
+            <div>🎓</div>
+            <h3>Quality Education</h3>
+            <p>
+                Experienced teachers and student-focused education.
+            </p>
+        </div>
+
+        <div class="modern-card">
+            <div>🔬</div>
+            <h3>Practical Learning</h3>
+            <p>
+                Learn through modern methods and practical experience.
+            </p>
+        </div>
+
+        <div class="modern-card">
+            <div>🚀</div>
+            <h3>Bright Future</h3>
+            <p>
+                Prepare yourself for higher education and careers.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     PROGRAMS
+========================================= -->
+
+<section id="programs" class="program-section">
+
+    <div class="section-heading">
+
+        <span>OUR PROGRAMS</span>
+
+        <h2>Featured Programs</h2>
+
+        <p>
+            Choose the right path for your future.
+        </p>
+
+    </div>
+
+
+    <div class="program-grid">
+
+        <div class="program-card">
+
+            <div class="program-icon">🧬</div>
+
+            <div>
+
+                <h3>F.Sc Pre-Medical</h3>
+
+                <p>
+                    Prepare for medical and life science careers.
+                </p>
+
+            </div>
+
+            <a href="admission.html">→</a>
+
+        </div>
+
+
+        <div class="program-card">
+
+            <div class="program-icon">⚙️</div>
+
+            <div>
+
+                <h3>F.Sc Pre-Engineering</h3>
+
+                <p>
+                    Build strong foundations for engineering.
+                </p>
+
+            </div>
+
+            <a href="admission.html">→</a>
+
+        </div>
+
+
+        <div class="program-card">
+
+            <div class="program-icon">💻</div>
+
+            <div>
+
+                <h3>ICS</h3>
+
+                <p>
+                    Learn computer science and information technology.
+                </p>
+
+            </div>
+
+            <a href="admission.html">→</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+  <!-- FACULTY -->
+  <section id="faculty">
+    <div class="section-title">
+      <h2>Our Faculty</h2>
+      <p>Meet our dedicated teaching staff.</p>
+    </div>
+    <div class="cards">
+      <div class="card faculty-card">
+        <img src="MOHSIN.jpeg " alt="Mohsin Khan">
+        <h3>Mohsin Khan</h3>
+        <p class="dev-role">Mathematics Department</p>
+        <p class="dev-phone">12 years experience | ETEA expert</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="jawad sir.jpeg" alt="Jawad Khan">
+        <h3>Jawad Khan</h3>
+        <p class="dev-role">Chemistry Department</p>
+        <p>Qualification:
+B.S Chemistry 
+B.Ed</p> 
+<p>Experienced:7 year teaching experience</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="yasir sir.jpeg" alts"Yasir Khan">
+        <h3>Yasir Khan</h3>
+        <p class="dev-role">Physics Department</p>
+      <p>Qualification: M.Sc Physics</p>
+<p>Experienced:5 years teaching experience</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="waseem sab.png" alt="Waseem Shahab">
+        <h3>Waseem Shahab</h3>
+        <p class="dev-role">Computer Science Department</p>
+        <p class="dev-phone">3 years teaching experience</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="arif.sir.jpeg" alt="Arif Kazmey">
+        <h3>Arif Kazmey</h3>
+        <p class="dev-role">Biology Department</p>
+        <p>Qualification:BS Botany 
+M.phil environment science</p>
+<p>Experienced:8 years of teaching experience..
+Including 
+3 year international Islmia college buner 
+3 years in cadet college jehlm
+2 years at Mike college takht</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="numi.jpeg" alt="Numan Yousaf">
+        <h3>Noman Yousaf</h3>
+        <p class="dev-role">English Department</p>
+        <p class="dev-phone">SS Post</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="arsalan.jpeg" alt="Arsalan Nisar">
+        <h3>Arsalan Nisar</h3>
+        <p class="dev-role">English Department</p>
+        <p class="dev-phone">M.Phil Scholar | 3.5 yrs experience</p>
+      </div>
+      <div class="card faculty-card">
+        <img src="umairsir.jpeg" alt="Umair Ahmad Khan">
+        <h3>Umair Ahmad Khan</h3>
+        <p class="dev-role">Computer Science Department</p>
+        <p class="dev-phone">Software Engineer (UET Mardan)</p>
+      </div>
+    </div>
+  </section>
+
+<!-- =========================================
+     GALLERY
+========================================= -->
+
+<section id="gallery" class="section">
+
+    <div class="section-heading">
+
+        <span>OUR CAMPUS</span>
+
+        <h2>College Gallery</h2>
+
+        <p>
+            Moments captured at Nova College.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="WhatsApp Image 2026-09-02 at 8.32.43 PM.jpeg"
+                 alt="Nova College">
+        </div>
+
+        <div class="gallery-item">
+            <img src="WhatsApp Image 2026-09-02 at 8.20.04 PM.jpeg"
+                 alt="Nova College Students">
+        </div>
+
+        <div class="gallery-item">
+            <img src="WhatsApp Image 2026-09-02 at 8.20.30 PM.jpeg"
+                 alt="Nova College Campus">
+        </div>
+
+        <div class="gallery-item">
+            <img src="grils.jpeg"
+                 alt="Nova College Girls Campus">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     CONTACT
+========================================= -->
+
+<section id="contact" class="contact-section">
+
+    <div>
+
+        <span>CONTACT US</span>
+
+        <h2>
+            We Are Here To Help
+        </h2>
+
+        <p>
+            Have questions about admission or our programs?
+            Contact Nova College today.
+        </p>
+
+    </div>
+
+
+    <div class="contact-details">
+
+        <p>📍 Nova College</p>
+
+        <p>📞 +92 345 6274247</p>
+
+        <p>✉️ info@novacollege.edu.pk</p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="nova.jpeg" alt="Nova College">
+
+        <div>
+            <strong>NOVA</strong>
+            <span>COLLEGE OF SCIENCE</span>
+        </div>
+
+    </div>
+
+    <p>
+        EDUCATION BUILDS A BETTER TOMORROW
+    </p>
+
+    <p class="copyright">
+        © 2026 Nova College. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

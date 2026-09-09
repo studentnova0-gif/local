@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Nova College - Admission</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="admission-page">
+
+
+<!-- NAVIGATION -->
+
+<header class="navbar">
+
+    <div class="nav-logo">
+
+        <img src="nova.jpeg" alt="Nova College">
+
+        <div>
+            <strong>NOVA</strong>
+            <span>COLLEGE OF SCIENCE</span>
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#programs">Courses</a>
+        <a href="admission.html" class="active">
+            Admission
+        </a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#contact">Contact</a>
+
+    </nav>
+
+
+    <a href="loginform.html" class="login-btn">
+        👤 Student Login
+    </a>
+
+</header>
+
+
+<!-- ADMISSION -->
+
+<section class="admission-page-section">
+
+    <div class="admission-wrapper">
+
+
+        <!-- LEFT -->
+
+        <div class="admission-info">
+
+            <img
+                src="nova.jpeg"
+                alt="Nova College Logo"
+                class="admission-logo"
+            >
+
+            <span>ADMISSION OPEN 2026</span>
+
+            <h1>
+                Start Your
+                <strong>Bright Future</strong>
+            </h1>
+
+            <p>
+                Join Nova College of Science and take the
+                first step towards your dreams.
+            </p>
+
+
+            <div class="admission-points">
+
+                <div>
+                    ✓ Quality Education
+                </div>
+
+                <div>
+                    ✓ Experienced Faculty
+                </div>
+
+                <div>
+                    ✓ Modern Learning
+                </div>
+
+                <div>
+                    ✓ Career-Focused Programs
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="full-admission-card">
+
+            <div class="form-top">
+
+                <span>APPLY NOW</span>
+
+                <h2>
+                    Admission Form
+                </h2>
+
+                <p>
+                    Fill in your information carefully.
+                </p>
+
+            </div>
+
+
+            <form id="admissionForm">
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Select Program
+                        </label>
+
+                        <select
+                            id="course"
+                            name="course"
+                            required
+                        >
+
+                            <option value="">
+                                Select Program
+                            </option>
+
+                            <option value="F.Sc Pre-Medical">
+                                F.Sc Pre-Medical
+                            </option>
+
+                            <option value="F.Sc Pre-Engineering">
+                                F.Sc Pre-Engineering
+                            </option>
+
+                            <option value="ICS">
+                                ICS
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Previous Qualification
+                    </label>
+
+                    <input
+                        type="text"
+                        id="qualification"
+                        name="qualification"
+                        placeholder="e.g. Matric / O-Level"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        placeholder="Enter your address"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-admission"
+                >
+                    Submit Application →
+                </button>
+
+
+                <div id="admissionMessage"></div>
+
+            </form>
+
+
+            <p class="form-note">
+                By submitting this form, you agree to provide
+                accurate information.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="nova.jpeg" alt="Nova College">
+
+        <div>
+            <strong>NOVA</strong>
+            <span>COLLEGE OF SCIENCE</span>
+        </div>
+
+    </div>
+
+    <p>
+        EDUCATION BUILDS A BETTER TOMORROW
+    </p>
+
+    <p class="copyright">
+        © 2026 Nova College. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
